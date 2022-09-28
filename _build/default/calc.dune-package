@@ -1,0 +1,4 @@
+(lang dune 3.2)
+(name calc)
+(sections (lib .) (bin ../../bin) (doc ../../doc/calc))
+(files (lib (META dune-package opam)) (bin (calc)) (doc (README.md)))

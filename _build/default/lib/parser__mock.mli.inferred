@@ -1,0 +1,19 @@
+type token =
+    SEMICOLON
+  | RPAREN
+  | PUSH
+  | POP
+  | MERGE
+  | LPAREN
+  | LET
+  | INT of int
+  | EQUALS
+  | EOF
+  | EMPTY
+  | DOT
+  | COMMA
+  | COLON
+val menhir_begin_marker : int
+val xv_prog : Stacks.expr
+val xv_expr : Stacks.expr
+val menhir_end_marker : int

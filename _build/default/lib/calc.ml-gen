@@ -1,0 +1,10 @@
+(** @canonical Calc.Lexer *)
+module Lexer = Calc__Lexer
+
+
+(** @canonical Calc.Parser *)
+module Parser = Calc__Parser
+
+
+(** @canonical Calc.Stacks *)
+module Stacks = Calc__Stacks
